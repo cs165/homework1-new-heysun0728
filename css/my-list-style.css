@@ -1,3 +1,52 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+
+body{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height:30px;
+}
+li p{
+    margin:50px 25%;
+}
+li span{
+    font-weight:bold;
+    font-size:24px;
+}
+.imgblock{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    font-size:36px;
+    color:white;
+}
+#bk1{
+    height:700px;
+    background-image:url(../images/1.jpg);
+}
+#bk1 p{
+    background-color:#978b3f;
+    padding:20px;
+}
+#bk2{
+    background-image:url(../images/4.jpg);
+}
+#bk3{
+    background-image:url(../images/2.jpg);
+}
+#bk4{
+    background-image:url(../images/5.jpg);
+}
